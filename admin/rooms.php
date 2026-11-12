@@ -1,0 +1,1 @@
+<?php $resource="rooms"; require __DIR__."/_crud.php"; ?>

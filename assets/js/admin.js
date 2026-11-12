@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('[data-menu-toggle]');if(b)b.addEventListener('click',()=>document.querySelector('.sidebar')?.classList.toggle('open'));});

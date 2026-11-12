@@ -1,0 +1,1 @@
+<?php $resource="feedback"; require __DIR__."/_crud.php"; ?>

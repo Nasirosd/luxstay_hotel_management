@@ -1,0 +1,1 @@
+<?php $resource="payments"; require __DIR__."/_crud.php"; ?>

@@ -1,0 +1,5 @@
+<?php $pageTitle='Gallery'; require_once __DIR__.'/includes/header.php';
+$photos=[['photo-1566073771259-6a8506099945','Hotel exterior'],['photo-1611892440504-42a792e24d32','Guest room'],['photo-1590490360182-c33d57733427','Deluxe suite'],['photo-1571896349842-33c89424de2d','Swimming pool'],['photo-1414235077428-338989a2e8c0','Dining experience'],['photo-1616486338812-3dadae4b4ace','Premium interior']]; ?>
+<section class="page-banner"><div class="container"><span class="eyebrow light">A GLIMPSE OF LUXSTAY</span><h1>Gallery</h1><p>Explore spaces and details that make a stay memorable.</p></div></section>
+<section class="section"><div class="container"><div class="row g-3"><?php foreach($photos as [$id,$alt]): ?><div class="col-sm-6 col-lg-4"><a class="gallery-item" target="_blank" rel="noopener" href="https://images.unsplash.com/<?= $id ?>?auto=format&fit=crop&w=1400&q=90"><img src="https://images.unsplash.com/<?= $id ?>?auto=format&fit=crop&w=800&q=85" alt="<?= htmlspecialchars($alt) ?>"><span><?= htmlspecialchars($alt) ?></span></a></div><?php endforeach; ?></div></div></section>
+<?php require_once __DIR__.'/includes/footer.php'; ?>

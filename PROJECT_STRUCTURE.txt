@@ -1,0 +1,14 @@
+luxstay_hotel_management/
+├── admin/ (login, dashboard, hotels, rooms, bookings, guests, payments, feedback, analytics, messages, settings)
+├── auth/ (legacy-compatible login/register/logout routes)
+├── booking/ (rooms, create, my_bookings)
+├── config/ (PDO database connection)
+├── database/ (MySQL schema and demo data)
+├── feedback/ (customer feedback form)
+├── includes/ (public header/footer and shared security/helpers)
+├── payment/ (manual payment request)
+├── user/ (register, login, dashboard, profile, logout)
+├── assets/css/ (public and admin styles)
+├── assets/js/ (public and admin scripts)
+├── index.php, gallery.php, contact.php
+└── README.md
